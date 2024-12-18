@@ -61,6 +61,7 @@ class GameTest {
 
         Assertions.assertThrows(NotRegisteredException.class, () -> game.round("Алекс", "Сергей"));
     }
+
     @Test
     public void secondPlayerNotRegistered() {
         Player alex = new Player(14, "Алекс", 290);
